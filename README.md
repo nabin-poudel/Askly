@@ -72,3 +72,4 @@ Askly is an experimental learning project. AI-generated responses may be inaccur
 ---
 
 **Built for learning.**
+**Not Deployed on Internet.**
