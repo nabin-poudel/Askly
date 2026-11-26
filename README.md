@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Askly
+
+A minimal AI chat application built with Next.js and Google's Gemini API.
+
+Askly is my first project built with Next.js. It's a personal learning project where I'm exploring how AI-powered applications work and learning to integrate external AI APIs into a web application.
+
+## Features
+
+- AI-powered conversations using Google Gemini
+- Minimal, dark-themed chat interface
+- Dynamic error handling for API errors
+- Copy AI responses to clipboard
+- Responsive chat experience
+- Loading indicator while generating responses
+
+## Tech Stack
+
+- **Framework:** Next.js
+- **Library:** React
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **AI:** Google Gemini API
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/nabin-poudel/Askly.git
+```
+
+Navigate to the project:
+
+```bash
+cd askly
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file in the project root and add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Purpose
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Askly is built purely for learning and experimentation.
 
-## Learn More
+- No authentication or authorization system.
+- No monetization or commercial objectives.
+- No production-level ambitions at this stage.
 
-To learn more about Next.js, take a look at the following resources:
+This is my first Next.js project, and the primary goal is to learn, experiment, make mistakes, and improve my development skills.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Disclaimer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Askly is an experimental learning project. AI-generated responses may be inaccurate, and availability depends on the Google Gemini API and its usage limits.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Built for learning.**
